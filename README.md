@@ -1,2 +1,15 @@
 # Cargo_Taxi
-'Cargo Taxi' database and an application that uses this database. Python, PyQt6.
+База данных реализующая систему "Грузовое такси" и приложение которое использует эту базу данных. База данных MySQL в ней реализован набор таблиц и набор хранимых процедур для взаимодействия с таблицами. Программа которая взаимодействует с базай данных написана на Python и PyQt6 для взаимодействия с базой используется mysql connector и QSqlTableModel в комлекте со специализированным драйвером. В программе присутствует 3 интерфейса пользователя: клиента водителя и администратора. Взимодействие с базой у клиента и водителя происходит только с помощью вызова хранимых процедур администраттор же может менять данные в таблицах напрямую. В приложении также есть примитивная карта которая накладывает дорожный граф на карту и строит линию пути по графу граф подгружается с интернета динамически в зависимости от начальной и конечных точек.
+
+<img width="677" height="300" alt="image" src="https://github.com/user-attachments/assets/1225529d-f923-4d85-b5ad-8dedf97c82fe" />
+
+<img width="967" height="810" alt="3" src="https://github.com/user-attachments/assets/6b9d687d-cf28-4793-b066-ba159771dd94" />
+
+<img width="963" height="809" alt="4" src="https://github.com/user-attachments/assets/e16f3d81-c8b3-4d42-965e-49b6ab33f0a1" />
+
+<img width="957" height="809" alt="5" src="https://github.com/user-attachments/assets/a1a59d96-3a42-4e31-9c17-1a85d82ed0f4" />
+
+<img width="1272" height="808" alt="6" src="https://github.com/user-attachments/assets/6c574a10-0e99-426e-a36d-31ccb5aabcbf" />
+этот проект является результатом курсовой работы ознакомится с отчётом можно ниже
+
+[Пояснительная записка.docx](https://github.com/user-attachments/files/21994008/default.docx)
